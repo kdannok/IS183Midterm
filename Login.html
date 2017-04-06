@@ -1,0 +1,44 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width" />
+        <title>My Webpage</title>
+               <link rel="stylesheet" type="text/css" href="css/login.css">
+                <script type="text/javascript" src="js/login.js"></script>
+
+    </head>
+    <body>
+        <div class="wrapper">
+        <header>
+            <h1 class="main-header box-shadow">Some Company</h1>
+            </header>
+        </div>
+        <article class="content-bottom-art bg-image">
+            <section class="content-bottom-sec">
+                <form class="login box-shadow">
+                <h2>Login</h2>
+                    <div>
+                  
+                        <input type="text" for="username"
+                        placeholder="Username"
+                        class="login-input" id="username">
+                        <input type="password" for="password"
+                        placeholder="Password"  class="login-input" id="password">
+                        <input type="button" value="Login" id="submit" onclick="validate()"/>
+                    
+                    </div>
+                    <div class="messages-box">
+                    <p class="error-message" id="error-msg">"You have left <a id="attempts"></a> attempts until you are locked out."</p>
+                    
+                        
+                    </div>
+                </form>
+            
+            </section>
+        </article>
+        <footer class="footer">
+       <p class="copyright box-shadow"> &copy; Created By Kevin Danny</p>
+        </footer>
+     
+    </body>
+</html>
